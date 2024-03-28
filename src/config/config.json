@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "2956939xD",
+    "database": "TWMdbdevelopment",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "2956939xD",
+    "database": "TWMdbtest",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "2956939xD",
+    "database": "TWMdbproduction",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
