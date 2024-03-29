@@ -23,11 +23,12 @@ Generacion de modelos con
     - npm install -g sequelize-cli (Recomiendo instalacion global)
     - npm install mysql2 (agregar al excel)
     - sequelize init
+
     Generar modelo:
+        npx sequelize-cli model:generate --name BmtAccounts --attributes nickName:string,email:string,birthdate:date,password:text
 
     Models Migrate:
-        npx sequelize-cli model:generate --name epale --attributes title:string,description:string
-        npx sequelize-cli migration:generate --name ModelGmtGenderV01 //--> ( Generate TABLE SPECIFIC )
+        npx sequelize-cli migration:generate --name BmtAccount.js //--> ( Generate TABLE SPECIFIC )
         
         npx sequelize-cli db:migrate:status
 
