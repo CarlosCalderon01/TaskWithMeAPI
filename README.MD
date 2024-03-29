@@ -36,9 +36,24 @@
     - npm install -g sequelize-cli (Recomiendo instalacion global)
     - npm install mysql2 (agregar al excel)
 
+- How to make a model?
+    
+    - npx sequelize-cli model:generate --name nameTable --attributes nickName:STRING,email:STRING,birthdate:DATE,password:TEXT
+
+- HOW TO MAKE MIGRATE MODELS TO DB:
+
+    - npx sequelize-cli migration:generate --name ModelGmtGenderV01 // NOTE FOR DEV: GENERATE TABLE SPECIFIC
+
+    - npx sequelize-cli db:migrate:status // NOTE FOR DEV: GENERATE TABLE SPECIFIC
+
+    - npx sequelize-cli db:migrate // NOTE FOR DEV: MIGRATE ALL DB
+
+    - npx sequelize-cli db:migrate --config src\config\config.json (ReConfig path for migrate)
+
+    - db:migrate:undo ()
+
+
 # Manual
-
-
 
 # BiBliografia
 

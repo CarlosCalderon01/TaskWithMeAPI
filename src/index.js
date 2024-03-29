@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const sequelize = require('../src/config/dbConfig.js')
+const bmtAccountRoutes = require('./views/BmtAccount')
 
 // const dbCheking = require('../src/config/checkingDataBase.js')
 
@@ -33,9 +34,13 @@ app.get('/', (req, res) => {
   res.send('Page Home!')
 })
 
+// Utiliza las rutas de BmtAccount
+app.use('/accounts', bmtAccountRoutes)
+
 // dbCheking.testAuthenticate()
 // testSynchronizing()
 testAuthenticate()
+
 app.listen(PORT, console.log(`Server Start in http://localhost:${PORT}`))
 
 // app.listen(PORT, () => {
