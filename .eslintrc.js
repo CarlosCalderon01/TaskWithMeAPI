@@ -1,25 +1,25 @@
 module.exports = {
-  env: {
-    node: true,
-    es2021: true
-  },
-  extends: 'standard',
-  overrides: [
-    {
-      env: {
-        node: true
-      },
-      files: [
-        '.eslintrc.{js,cjs}'
-      ],
-      parserOptions: {
-        sourceType: 'script'
-      }
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "extends": "standard",
+    "overrides": [
+        {
+            "env": {
+                "node": true
+            },
+            "files": [
+                ".eslintrc.{js,cjs}"
+            ],
+            "parserOptions": {
+                "sourceType": "script"
+            }
+        }
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
     }
-  ],
-  parserOptions: {
-    ecmaVersion: 'latest'
-  },
-  rules: {
-  }
 }

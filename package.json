@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CarlosCalderon01/TalkingWithMeAPI.git"
+    "url": "git+https://github.com/CarlosCalderon01/TaskWithMeAPI.git"
   },
   "keywords": [
     "language",
@@ -20,9 +20,9 @@
   "author": "me",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CarlosCalderon01/TalkingWithMeAPI/issues"
+    "url": "https://github.com/CarlosCalderon01/TaskWithMeAPI/issues"
   },
-  "homepage": "https://github.com/CarlosCalderon01/TalkingWithMeAPI#readme",
+  "homepage": "https://github.com/CarlosCalderon01/TaskWithMeAPI#readme",
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
